@@ -28,7 +28,7 @@ class ConcreteBuilder(AbstractBuilder):
         self.adoption_offer.name = "Kitek"
 
     def addSex(self):
-        self.adoption_offer.sex = "On"
+        self.adoption_offer.sex = "Samiec"
 
     def addAge(self):
         self.adoption_offer.age = "Młody"
