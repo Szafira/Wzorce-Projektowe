@@ -40,6 +40,9 @@ class Dog(Pet):
         #  # print("Płeć: Samiec")
         
         
+#Most
+
+
 class Size(ABC):
     @abstractmethod
     def get_size(self):

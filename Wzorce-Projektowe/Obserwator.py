@@ -1,3 +1,5 @@
+# Obserwator
+
 class Publisher(object):
     users = set()
 
