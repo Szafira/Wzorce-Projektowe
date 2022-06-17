@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1a7b102e-ae58-488f-b547-836f13700d80</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Adapter.py</StartupFile>
+    <StartupFile>Pamiatka.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Adapter.py" />
+    <Compile Include="Budowniczy.py" />
+    <Compile Include="FabrykaAbstrakcyjna.py" />
     <Compile Include="Fasada.py" />
+    <Compile Include="Iterator.py" />
+    <Compile Include="Mediator.py" />
+    <Compile Include="MetodaSzablonowa.py" />
+    <Compile Include="Most.py" />
+    <Compile Include="Most2.py" />
+    <Compile Include="Obserwator.py" />
     <Compile Include="Pamiatka.py" />
+    <Compile Include="Singleton.py" />
     <Compile Include="Stan.py" />
+    <Compile Include="Strategia.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
