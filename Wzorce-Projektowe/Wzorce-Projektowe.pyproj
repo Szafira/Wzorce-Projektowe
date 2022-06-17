@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1a7b102e-ae58-488f-b547-836f13700d80</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Fasada.py</StartupFile>
+    <StartupFile>Adapter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Adapter.py" />
     <Compile Include="Fasada.py" />
+    <Compile Include="Pamiatka.py" />
+    <Compile Include="Stan.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
